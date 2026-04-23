@@ -23,7 +23,7 @@ def get_main_menu():
     return builder.as_markup(resize_keyboard=True)
 
 def get_inline_link():
-    """Inline Keyboard барои пайванд"""
+    """Inline Keyboard барои пайванд """
     builder = InlineKeyboardBuilder()
     builder.button(text="👨‍💻 Муаллифи бот", url="https://github.com")
     builder.button(text="✅ Фаҳмо", callback_data="done")
